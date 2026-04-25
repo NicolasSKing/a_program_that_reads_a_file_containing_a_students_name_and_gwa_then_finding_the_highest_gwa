@@ -24,8 +24,12 @@ class StudentProgram:
         for student in self.students:
             if student.gwa > highest_student.gwa:
                 highest_student = student
-                
+
         return highest_student
+
+    def run(self):
+        print("Reading data from file:", self.filename)
+
 
 
 
