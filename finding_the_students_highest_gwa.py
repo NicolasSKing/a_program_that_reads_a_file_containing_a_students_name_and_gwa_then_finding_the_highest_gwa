@@ -11,3 +11,10 @@ class StudentProgram:
     def load_students(self):
         file = open(self.filename, "r")
 
+        for line in file:
+            name, gwa = line.split()
+            student = Students(name, float(gwa))
+            self.students.append(student)
+
+        file.close()
+
