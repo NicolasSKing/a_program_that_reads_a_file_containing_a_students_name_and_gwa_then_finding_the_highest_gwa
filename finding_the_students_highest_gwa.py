@@ -8,4 +8,6 @@ class StudentProgram:
         self.filename = filename
         self.students = []
 
-        
+    def load_students(self):
+        file = open(self.filename, "r")
+
