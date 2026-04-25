@@ -18,3 +18,15 @@ class StudentProgram:
 
         file.close()
 
+    def find_highest_gwa(self):
+        highest_student = self.students[0]
+
+        for student in self.students:
+            if student.gwa > highest_student.gwa:
+                highest_student = student
+                
+        return highest_student
+
+
+
+
