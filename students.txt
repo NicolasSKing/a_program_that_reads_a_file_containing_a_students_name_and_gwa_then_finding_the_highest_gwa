@@ -18,4 +18,3 @@ Goku 1.2
 Vegita 2.5
 Luffy 3.0
 Nami 1.0
-
