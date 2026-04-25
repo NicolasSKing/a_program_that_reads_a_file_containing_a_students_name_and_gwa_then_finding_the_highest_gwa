@@ -30,7 +30,14 @@ class StudentProgram:
     def run(self):
         print("Reading data from file:", self.filename)
 
+        self.load_students()
 
+        highest = self.find_highest_gwa()
+
+        print("\nStudent with the highest GWA:")
+        print("Name:", highest.name)
+        print("GWA:", highest.gwa)
+        
 
 
 
